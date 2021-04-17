@@ -1,0 +1,263 @@
+<!DOCTYPE html> <html>
+
+<head>
+    <meta charset = "utf-8" />
+    <link href = "list-tables.css" rel="stylesheet" type="text/css" />
+    <link href = "navbar.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<div>
+    <h3>This table shows an example of colspan:</h3>
+        
+    <table class="table1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Phone Number</th>
+        </tr>
+        <tr>
+            <td>Eva Eriksson</td>
+            <td>072 55 77 854</td>
+            <td>072 55 77 855</td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>This table shows an example of rowspan:</h3>
+
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <td>Eva Eriksson </td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone Number:</th>
+            <td>072 55 77 854</td>
+        </tr>
+            <tr>
+            <td>072 55 77 855</td>
+        </tr>
+    </table>
+<br>
+
+    <h3>A table with CSS:</h3>
+    
+    <table class="head-body-foot">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Profit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2017</td>
+                <td>€1000</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>€1500</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>€2000</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>€1650</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">2019 was better than 2020</td>
+            </tr>
+        </tfoot>
+        </table>
+        <br>
+    </div>
+
+    <div class="scroll-bar">
+    
+    <!-- Table with scrollbar -->
+    <h3>A Table with Scrollbar: (A vertical scrollbar appears to give place for the rest of the table-input)</h3>
+        <table class="many-columns">
+            <thead>
+                <tr>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <br>
+
+        <br>
+
+        <table class="table-image">
+            <tr>
+                <th colspan="3">Car Models 2021</th>
+            </tr>
+            <tr>
+                <th>Model</th>
+                <th>Origin</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>Tesla Model S Long Range Plus 2021</td>        
+                <td>United States</td>
+                <td><img src="FERRARI.jpg" alt="Tesla car 2021" height=257 width=400></td>        
+            </tr>
+            </table>
+            <br>
+         
+<style>
+    table.GeneratedTable {
+      width: 100%;
+      background-color: #f2fbfd;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: #050505;
+      border-style: solid;
+      color: #000000;
+    }
+    
+    table.GeneratedTable td, table.GeneratedTable th {
+      border-width: 2px;
+      border-color: #050505;
+      border-style: solid;
+      padding: 3px;
+    }
+    
+    table.GeneratedTable thead {
+      background-color: #43a1d0;
+    }
+    </style>
+
+    <div class="GeneratedTable">
+    <table class="GeneratedTable">
+      <thead>
+        <tr>
+          <th>Header</th>
+          <th>Header</th>
+          <th>Header</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="Programming.jpg" alt="programming" width="400px"></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    
+</body>
+</html>
